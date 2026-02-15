@@ -1,8 +1,13 @@
 """
-Items Conversion Tool
-Copyright (c) 2026 João Victor Liporini
-
-Licensed for personal and commercial use.
+      ██╗ ██████╗ ████████╗
+      ██║ ██╔═══╝ ╚══██╔══╝
+      ██║ ██║        ██║   
+      ██║ ██║        ██║   
+      ██║ ██████╗    ██║   
+      ╚═╝ ╚═════╝    ╚═╝
+    Items Conversion Tool
+    Developed by Nevoeiro_
+    © 2026
 """
 
 import yaml
