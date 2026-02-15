@@ -304,7 +304,12 @@ def process_all():
 
         namespace = get_namespace_from_path(relative_path)
 
-        remaining_path = Path(*relative_path.parts[1:])
+        # Remove first folder safely
+        if len(relative_path.parts) > 1:
+            remaining_path = Path(*relative_path.parts[1:])
+        else:
+            remaining_path = Path(relative_path.name)
+
 
         output_file = OUTPUT_DIR / namespace / "config" / remaining_path
 
