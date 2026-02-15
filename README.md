@@ -77,6 +77,9 @@ Layers are generated as:
 <namespace>:<base_path>_layer_2
 ```
 
+> [!WARNING]
+> You may need to correctly define the namespace and layer name.
+
 If no armor is detected in the file, the `equipments` section is not generated.
 
 ---
