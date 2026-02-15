@@ -95,4 +95,6 @@ The script downloads the official Spigot `Material.java` enum.
 ---
 
 > [!WARNING]
-> I am not an expert in Python, I will update this repository as I have free time, so it may remain outdated for quite some time.   
+> I am not an expert in Python, I will update this repository as I have free time, so it may remain outdated for quite some time.
+>  
+> This software is provided as-is and may contain bugs.   
