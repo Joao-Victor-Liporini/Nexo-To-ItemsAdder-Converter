@@ -4,12 +4,11 @@ Automatic converter for Nexo item configurations into structured ItemsAdder-comp
 
 ## ✨ Features
 
-- Converts legacy item configs into standardized structure
+- Converts Nexo item configs into ItemsAdder structure
 - Automatically detects armor sets
 - Generates armor layers dynamically
 - Smart namespace detection
 - Automatic Spigot material validation
-- 24-hour material enum cache system
 - Safe fallback system if download fails
 
 ---
@@ -53,7 +52,7 @@ python converter.py
 
 The script will:
 
-* Scan all `.yml` files inside `input/`
+* Scan all `.yml` files inside `input/` (And SubFolders)
 * Convert them
 * Generate output in:
 
@@ -86,11 +85,14 @@ If no armor is detected in the file, the `equipments` section is not generated.
 
 The script downloads the official Spigot `Material.java` enum.
 
-To avoid downloading on every run:
+---
 
-* A local cache is stored in `.cache/materials_cache.yml`
-* Cache expires after 24 hours
-* If download fails, the script falls back to cached data
+## 💭 Planned Features
+
+* Add support to Nexo Furnitures
+* Add support to Nexo Blocks
 
 ---
 
+> [!WARNING]
+> I am not an expert in Python, I will update this repository as I have free time, so it may remain outdated for quite some time.   
